@@ -112,7 +112,7 @@
   cursor: pointer;
 }
 .homepage-tabs-wrapper .homepage-tabs-left-font.hover {
-  color: #F0145A;
+  color: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
 }
 .homepage-tabs-wrapper .homepage-tabs-right {
   width: 861px;
