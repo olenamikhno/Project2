@@ -143,10 +143,11 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  max-width: 1920px;
   padding-top: 60px;
 }
 .what-can-we-do-better-wrapper .what-can-we-do-better-container .what-can-we-do-better-small-box {
-  max-width: 490px;
+  max-width: 420px;
   height: 400px;
 }
 .what-can-we-do-better-wrapper .what-can-we-do-better-container .what-can-we-do-better-small-box h4 {
