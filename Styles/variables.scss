@@ -1,0 +1,210 @@
+//COLORS
+$main-regular: #323264;
+$main-alt: #46466E;
+$main-soft: #686887;
+
+$basic-white: #FFFFFF;
+
+$accent: #F0145A;
+
+$active-regular: #24A3FF;
+$active-hover: #0085FF;
+$active-active: #006CCF;
+
+$grey-bg: #F5F5FA;
+$grey-bg-alt: #EDEDF7;
+$grey-text: #B3B3BA;
+$grey-separator: #E6E6F0;
+
+// font weight
+
+$bold: 700;
+
+//templates
+
+.gradient-supersoft {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+}
+
+
+.hero {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #323264;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  padding: 0 160px;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+    .header-right-side {
+      .top-box {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: $basic-white;
+
+        .dot {
+          width: 6px;
+          height: 6px;
+          background-color: $grey-separator;
+          border-radius: 50%;
+        }
+
+        .number-link a {
+          font-weight: $bold;
+          color: $basic-white;
+          text-decoration: none;
+
+        }
+
+        .languages {
+          display: flex;
+
+          .language {
+            width: 33px;
+            height: 25px;
+            font-weight: $bold;
+            border-radius: 8px;
+            cursor: pointer;
+            &.active, &.hover {
+              background-color: $accent;
+            }
+          }
+        }
+      }
+      .bottom-box {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        justify-content: flex-end;
+        padding-top: 18px;
+        font-family: 'Montserrat';
+        font-weight: $bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: $basic-white;
+      }
+    }
+}
+.homepage-tabs-wrapper {
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+
+    .homepage-tabs-left {
+      padding-right: 60px;
+      border-right: 4px solid $grey-text;
+
+    }
+      .homepage-tabs-left-font {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: $bold;
+      font-size: 38px;
+      line-height: 66px;
+      text-align: right;
+      color: $grey-text;
+      cursor: pointer;
+        &.hover {
+          color: $accent;
+        }
+    }
+    .homepage-tabs-right {
+    width: 861px;
+    padding-left: 60px;
+    margin-top: 45px;
+      h3 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 37px;
+        color: $basic-white;
+      }
+      p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 30px;
+        color: $basic-white;
+        margin-top: 30px;
+      }
+
+  }
+}
+.what-can-we-do-better-wrapper {
+
+    .what-can-we-do-better-container {
+
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 1920px;
+      padding-top: 60px;
+
+        .what-can-we-do-better-small-box {
+          max-width: 490px;
+          height: 400px;
+
+            h4 {
+              font-family: 'Montserrat';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 22px;
+              line-height: 27px;
+              color: $active-regular;
+              padding-top: 30px;
+              white-space: pre-line;
+            }
+            p {
+              font-family: 'Montserrat';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 26px;
+              color: $basic-white;
+              padding-top: 15px;
+
+
+            }
+
+        }
+    }
+}

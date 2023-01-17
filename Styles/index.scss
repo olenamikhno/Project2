@@ -1,0 +1,33 @@
+@import './variables.scss';
+
+.home-page-main-wrapper {
+  position: relative;
+  margin-top: -118px;
+  z-index: 0;
+  height: 799px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+  .main-big-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 100%;
+    z-index: 0;
+  }
+  .main-title {
+    position: relative;
+    z-index: 1;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-align: center;
+    color: $basic-white;
+
+  }
+}
