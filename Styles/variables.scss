@@ -16,6 +16,9 @@ $grey-bg-alt: #EDEDF7;
 $grey-text: #B3B3BA;
 $grey-separator: #E6E6F0;
 
+$red-text: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+
+
 // font weight
 
 $bold: 700;
@@ -140,7 +143,7 @@ $bold: 700;
       color: $grey-text;
       cursor: pointer;
         &.hover {
-          color: $accent;
+          color: $red-text;
         }
     }
     .homepage-tabs-right {
@@ -201,10 +204,7 @@ $bold: 700;
               line-height: 26px;
               color: $basic-white;
               padding-top: 15px;
-
-
             }
-
         }
     }
 }
